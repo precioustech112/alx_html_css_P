@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+
+}
+
+article{
+  flex: 2;
+  overflow-y: auto;
+
+}
+
+aside{
+  flex: 1;
+  overflow-y: auto;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+}
