@@ -225,3 +225,104 @@ blockquote{
 .quote p{
     font-style: italic;
 }
+
+.tutorials{
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    overflow: hidden;
+    padding: 6rem;
+    background-color: red;
+}
+
+.play-icon{
+    position: relative;
+}
+.play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 60px;
+    padding-top:0;
+
+
+}
+.tutorials span{
+    color:#C271FF
+}
+
+.video-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+
+.video-list h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.video-list p{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.video-tag{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: #C271FF;
+    gap: 10px
+}
+
+.video-tag h4{
+    color: #C271FF;
+    margin-top: 12px;
+}
+
+.video-tag img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.video-list p{
+    color: #071629
+}
+
+.t-img{
+    width: 100%;
+}
+
+
+.star{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: #C271FF;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.star p{
+    margin-left: 200px;
+    color: #C271FF;
+
+}
+
+
+.white-star{
+    color: #979797
+}
