@@ -395,3 +395,40 @@ h2>span{
 
 
 }
+
+.faq{
+    height: 100vh;
+}
+
+.faq h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 60px;
+    padding-top:80px;
+
+}
+
+.faq-list{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    padding: 25rem;
+    padding-top: 10PX;
+}
+
+.faq-item{
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.faq-text{
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.faq-item h3{
+    padding-top: 6px;
+    padding-bottom: 15px;
+}
