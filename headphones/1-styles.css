@@ -128,10 +128,14 @@ header{
     display: flex;
     justify-content: center;
     padding-bottom: 150px;
+    font-size: 20gtipx;
 }
 
 .what_we_do-img{
     margin-bottom: 50px;
-
+}
+    
+.what_we_do-p3{
+    font-style: italic;
 }
 
