@@ -150,7 +150,6 @@ header{
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    position: absolute;
 }
 
 .our_results-list{
@@ -198,4 +197,60 @@ header{
     width: 100%;
 }
 
+.contact_us-btn{
+     color: white;
+    background-color: #FF6565;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-weight: 600;
+}
 
+.contact_us-content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 10px 500px 10px 5px;
+    border-radius: 4px;
+}
+
+label{
+    color:black
+}
+
+.contact_us-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+#message{
+    padding: 10px 500px 100px 5px;
+}
+
+
+.contact_us-p1{
+    color:black;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+form {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideIn 1s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
