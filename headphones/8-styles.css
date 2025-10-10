@@ -110,6 +110,13 @@ header {
   align-items: center;
   padding: 6rem 5vw;
 }
+.what_we_do-h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
 
 .what_we_do-list {
   display: flex;
@@ -157,6 +164,13 @@ header {
   background-repeat: no-repeat;
 }
 
+.our-result-h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-bottom: 0.7rem;
+    padding-top: 2rem;
+}
 
 .our_results-list {
   display: flex;
@@ -170,7 +184,7 @@ header {
   justify-content: center;
   padding: 8rem 0;
   font-size: 1.3rem;
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 
@@ -618,6 +632,7 @@ Responsive design section
     padding: 3rem 5vw;
     text-align: center;
   }
+
 
   .what_we_do-list {
     flex-direction: column;
